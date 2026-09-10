@@ -1,61 +1,61 @@
 # cosign
 
-[中文版本](./README.cn.md)
+[English version](./README.md)
 
 Code signing and transparency for containers and binaries
 
-![cosign](https://repo.x-cmd.io/cosign.svg)
+![cosign](https://repo.x-cmd.io/cosign.svg?lang=zh)
 
-## Install
+## 安装
 
 ```sh
 x install cosign
 ```
 
-## Code insight
+## 代码规模
 
-Total: **48,639** lines of code across **355** files in the top 5 languages.
+合计: **48,639** 行代码（覆盖前 5 种语言、共 **355** 个文件）。
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
 | Go | 47,863 | 7,502 | 7,079 | 339 |
 | Makefile | 171 | 43 | 42 | 3 |
 | Yaml | 169 | 55 | 18 | 4 |
 | Sh | 158 | 137 | 56 | 8 |
 | Svg | 135 | 22 | 0 | 1 |
 
-## OpenSSF Scorecard
+## OpenSSF Scorecard 评分
 
-Overall score: **8.1 / 10**
+总评分: **8.1 / 10**
 
-Lowest-scoring checks:
+评分最低的几项:
 
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (2/10) — badge detected: InProgress
 
-## Source
+## 源代码
 
-- **Upstream**: <https://github.com/sigstore/cosign>
-- **License**: Apache-2.0
+- **上游仓库**: <https://github.com/sigstore/cosign>
+- **许可证**: Apache-2.0
 
-## Release
+## 发布
 
-- **Latest**: `v3.1.3` (2026-08-06)
-- **Last commit**: 2026-09-08
-- **Assets in release**: 83
+- **最新版本**: `v3.1.3` (2026-08-06)
+- **最近提交**: 2026-09-08
+- **Release 含资产**: 83 个
 
-## Popularity
+## 流行度
 
-- **Stars**: 6,292 · **Forks**: 801 · **Open issues**: 1,213 · **Contributors**: 274
+- **Star**: 6,292 · **Fork**: 801 · **开放 issue**: 1,213 · **贡献者**: 274
 
-## Totals (cumulative)
+## 累计统计
 
-- **Releases**: 75 · **Merged PRs**: 3177 · **Open PRs**: 46 · **Closed issues**: 1096 · **Open issues**: 117 · **Commits**: 3227
+- **发布数**: 75 · **已合并 PR**: 3177 · **开放 PR**: 46 · **已关闭 issue**: 1096 · **开放 issue**: 117 · **提交数**: 3227
 
-## Recent activity
+## 最近活动
 
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 28 | 15 | 2 | 3 | 33 |
 | last60d | 2026-07-12 | 4 | 44 | 23 | 5 | 11 | 47 |
@@ -64,10 +64,10 @@ Lowest-scoring checks:
 | 360d | 2025-09-15 | 14 | 337 | 41 | 93 | 41 | 331 |
 | last720d | 2024-09-20 | 22 | 639 | 46 | 174 | 65 | 639 |
 
-## Release assets
+## Release 资产
 
-| Asset | Size | Target |
-|-------|-----:|--------|
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
 | [cosign-3.1.3-1.aarch64.rpm](https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-3.1.3-1.aarch64.rpm) | 50.3 MiB | `runtime/rpm/aarch64` |
 | [cosign-3.1.3-1.aarch64.rpm.sigstore.json](https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-3.1.3-1.aarch64.rpm.sigstore.json) | 6.3 KiB | `other` |
 | [cosign-3.1.3-1.armv7hl.rpm](https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-3.1.3-1.armv7hl.rpm) | 51.1 MiB | `runtime/rpm/armv7hl` |
@@ -152,12 +152,12 @@ Lowest-scoring checks:
 | [cosign_checksums.txt.sigstore.json](https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign_checksums.txt.sigstore.json) | 6.3 KiB | `other` |
 | [release-cosign.pub](https://github.com/sigstore/cosign/releases/download/v3.1.3/release-cosign.pub) | 178 B | `other` |
 
-## Distribution status
+## 发行版状态
 
-Reported by **135** distros on [repology.org](https://repology.org/project/cosign). **14** are ✅ on the latest upstream release, **79** are ⚠️ on an older version.
+在 [repology.org](https://repology.org/project/cosign) 上共有 **135** 个发行版报告此项目。**14** 个 ✅ 已是最新上游版本，**79** 个 ⚠️ 使用旧版本。
 
-| Distro | Version | Status |
-|--------|---------|--------|
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
 | Debian unstable | `3.1.1` | ⚠️ outdated |
 | Debian 14 | `3.1.1` | ⚠️ outdated |
 | Debian 13 | `2.5.0` | ⚠️ outdated |
@@ -168,13 +168,13 @@ Reported by **135** distros on [repology.org](https://repology.org/project/cosig
 | Alpine edge | `3.0.6` | ⚠️ outdated |
 | openSUSE Tumbleweed | `3.1.2` | ⚠️ outdated |
 
-## Improve this data
+## 改进这些数据
 
-Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `cosign` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+cosign 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `cosign` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
 
-- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/cosign.yml> (or whichever path the index uses)
+- **提交 issue**: <https://github.com/x-cmd/install/issues/new>
+- **编辑包条目**: <https://github.com/x-cmd/install/edit/main/cosign.yml>（或索引实际使用的路径）
 
-The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:45:09Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:45:10Z._
