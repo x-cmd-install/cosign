@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 139618946,
       "digest": "sha256:5cf948c2f4dfe59687bdd0b8523709067383e03982cc543475c8a7dc70e92a76",
-      "download_count": 9306,
+      "download_count": 9316,
       "created_at": "2026-08-06T01:05:01Z",
       "updated_at": "2026-08-06T01:05:05Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-darwin-arm64"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 3712,
       "digest": "sha256:4af4947ddfc025f0efad771310b2871d609f98fbf9784be59f8d4c1dea082185",
-      "download_count": 1421,
+      "download_count": 1430,
       "created_at": "2026-08-06T01:06:11Z",
       "updated_at": "2026-08-06T01:06:11Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-darwin-arm64-kms.sigstore.json"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 6453,
       "digest": "sha256:7b379a15ea1710368a61ecfdc33c96a27710b6a456135856cf1a0de1b1c3c7da",
-      "download_count": 1189,
+      "download_count": 1198,
       "created_at": "2026-08-06T01:06:15Z",
       "updated_at": "2026-08-06T01:06:16Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-darwin-arm64.sigstore.json"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 141178250,
       "digest": "sha256:4629c757b7618056f8ddd7e2625ae9fdd94c0372a65049520bc7d9df9efc7f71",
-      "download_count": 427898,
+      "download_count": 428332,
       "created_at": "2026-08-06T01:04:40Z",
       "updated_at": "2026-08-06T01:04:43Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-amd64"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 3618,
       "digest": "sha256:9c0e569b65883ac5ccf6e079989355832a3ee083b8cb991b3482d963e97896d9",
-      "download_count": 123101,
+      "download_count": 123218,
       "created_at": "2026-08-06T01:06:09Z",
       "updated_at": "2026-08-06T01:06:09Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-amd64-kms.sigstore.json"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 6406,
       "digest": "sha256:e16547fbee348eb23bd7e5a4d542b540395faea2e7bb1d18da01bbc3cc74d57d",
-      "download_count": 169090,
+      "download_count": 169275,
       "created_at": "2026-08-06T01:06:13Z",
       "updated_at": "2026-08-06T01:06:14Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-amd64.sigstore.json"
@@ -1039,7 +1039,7 @@
       "state": "uploaded",
       "size": 132747403,
       "digest": "sha256:c5d324e091826b0d7a78eb16fef316450b4eb9aaec045611c08ba06f5e73220a",
-      "download_count": 50379,
+      "download_count": 50404,
       "created_at": "2026-08-06T01:05:11Z",
       "updated_at": "2026-08-06T01:05:14Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-arm64"
@@ -1111,7 +1111,7 @@
       "state": "uploaded",
       "size": 6265,
       "digest": "sha256:ac5d1d6bfa3074c54a1a1f972bd5bbf293c6eed4de5e067672a999f6b49196a9",
-      "download_count": 18130,
+      "download_count": 18139,
       "created_at": "2026-08-06T01:06:16Z",
       "updated_at": "2026-08-06T01:06:16Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-arm64.sigstore.json"
@@ -1939,7 +1939,7 @@
       "state": "uploaded",
       "size": 198819314,
       "digest": "sha256:9fe59be0eca1271873ce019061335eb1ac419b7059202e797828467ddabe33be",
-      "download_count": 11683,
+      "download_count": 11689,
       "created_at": "2026-08-06T01:05:05Z",
       "updated_at": "2026-08-06T01:05:10Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-windows-amd64.exe"
@@ -1975,7 +1975,7 @@
       "state": "uploaded",
       "size": 3618,
       "digest": "sha256:c7e2e2185aa760e2a6b3be66a91e0fb448b0e26f9aa60add209f1df0e3cb2c9d",
-      "download_count": 1620,
+      "download_count": 1625,
       "created_at": "2026-08-06T01:06:11Z",
       "updated_at": "2026-08-06T01:06:12Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-windows-amd64.exe-kms.sigstore.json"
@@ -2011,7 +2011,7 @@
       "state": "uploaded",
       "size": 6453,
       "digest": "sha256:2422e19bb32d4dacc57d8979b3313badd61940b0e10720ae97a53b50e6ffbe2d",
-      "download_count": 1163,
+      "download_count": 1166,
       "created_at": "2026-08-06T01:06:16Z",
       "updated_at": "2026-08-06T01:06:16Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-windows-amd64.exe.sigstore.json"
@@ -2155,7 +2155,7 @@
       "state": "uploaded",
       "size": 57402058,
       "digest": "sha256:75357d96161da4d06d37c4b2831fa6978483cdce661999e5951b586f9ee1d710",
-      "download_count": 19768,
+      "download_count": 19780,
       "created_at": "2026-08-06T01:05:38Z",
       "updated_at": "2026-08-06T01:05:40Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign_3.1.3_amd64.deb"
@@ -2947,7 +2947,7 @@
       "state": "uploaded",
       "size": 3906,
       "digest": "sha256:aec2a6f68d307b09ae196e388dc691a146fa8bdba7fcce9ca4ca41b918adfa63",
-      "download_count": 91111,
+      "download_count": 91263,
       "created_at": "2026-08-06T01:06:09Z",
       "updated_at": "2026-08-06T01:06:09Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign_checksums.txt"
@@ -2983,7 +2983,7 @@
       "state": "uploaded",
       "size": 6406,
       "digest": "sha256:976bcb216e45ed0274e464e2e16d81e84cc85a69b3ed6e3488c1e7cda116379a",
-      "download_count": 54254,
+      "download_count": 54352,
       "created_at": "2026-08-06T01:06:18Z",
       "updated_at": "2026-08-06T01:06:18Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign_checksums.txt.sigstore.json"
