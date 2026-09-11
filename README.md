@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 28 | 15 | 2 | 3 | 33 |
-| last60d | 2026-07-12 | 4 | 44 | 23 | 5 | 11 | 47 |
-| 90d | 2026-06-12 | 4 | 73 | 27 | 11 | 12 | 73 |
-| last180d | 2026-03-14 | 7 | 151 | 37 | 29 | 22 | 152 |
-| 360d | 2025-09-15 | 14 | 337 | 41 | 93 | 41 | 331 |
-| last720d | 2024-09-20 | 22 | 639 | 46 | 174 | 65 | 639 |
+| 30d | 2026-08-12 | 0 | 28 | 15 | 2 | 3 | 33 |
+| last60d | 2026-07-13 | 4 | 40 | 22 | 5 | 10 | 47 |
+| 90d | 2026-06-13 | 4 | 73 | 27 | 11 | 12 | 73 |
+| last180d | 2026-03-15 | 7 | 151 | 37 | 29 | 22 | 152 |
+| 360d | 2025-09-16 | 14 | 336 | 41 | 92 | 41 | 331 |
+| last720d | 2024-09-21 | 22 | 639 | 46 | 174 | 65 | 638 |
 
 ## Release assets
 
@@ -154,7 +154,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **135** distros on [repology.org](https://repology.org/project/cosign). **14** are ✅ on the latest upstream release, **79** are ⚠️ on an older version.
+Reported by **134** distros on [repology.org](https://repology.org/project/cosign). **15** are ✅ on the latest upstream release, **77** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -162,7 +162,7 @@ Reported by **135** distros on [repology.org](https://repology.org/project/cosig
 | Debian 14 | `3.1.1` | ⚠️ outdated |
 | Debian 13 | `2.5.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.6.2` | ⚠️ outdated |
-| Arch | `3.1.0` | ⚠️ outdated |
+| Arch | `3.1.3` | ✅ latest |
 | Homebrew | `3.1.3` | ✅ latest |
 | Nix unstable | `3.1.3` | ✅ latest |
 | Alpine edge | `3.0.6` | ⚠️ outdated |
@@ -177,4 +177,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:12:26Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T06:07:39Z._
