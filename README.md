@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,296 · **Forks**: 803 · **Open issues**: 1,215 · **Contributors**: 274
+- **Stars**: 6,299 · **Forks**: 804 · **Open issues**: 1,215 · **Contributors**: 274
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 3177 · **Open PRs**: 48 · **Closed issues**: 1097 · **Open issues**: 118 · **Commits**: 3227
+- **Releases**: 75 · **Merged PRs**: 3177 · **Open PRs**: 47 · **Closed issues**: 1097 · **Open issues**: 118 · **Commits**: 3227
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 24 | 15 | 2 | 4 | 33 |
-| last60d | 2026-07-15 | 4 | 39 | 24 | 4 | 10 | 47 |
-| 90d | 2026-06-15 | 4 | 69 | 27 | 11 | 13 | 73 |
-| last180d | 2026-03-17 | 7 | 150 | 39 | 30 | 23 | 152 |
-| 360d | 2025-09-18 | 14 | 333 | 43 | 93 | 42 | 331 |
-| last720d | 2024-09-23 | 22 | 639 | 48 | 175 | 66 | 638 |
+| 30d | 2026-08-15 | 0 | 24 | 15 | 2 | 4 | 27 |
+| last60d | 2026-07-16 | 4 | 38 | 23 | 4 | 10 | 42 |
+| 90d | 2026-06-16 | 4 | 69 | 26 | 11 | 13 | 69 |
+| last180d | 2026-03-18 | 7 | 150 | 38 | 30 | 22 | 152 |
+| 360d | 2025-09-19 | 14 | 333 | 42 | 93 | 42 | 326 |
+| last720d | 2024-09-24 | 22 | 638 | 47 | 175 | 66 | 638 |
 
 ## Release assets
 
@@ -152,22 +152,6 @@ Lowest-scoring checks:
 | [cosign_checksums.txt.sigstore.json](https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign_checksums.txt.sigstore.json) | 6.3 KiB | `other` |
 | [release-cosign.pub](https://github.com/sigstore/cosign/releases/download/v3.1.3/release-cosign.pub) | 178 B | `other` |
 
-## Distribution status
-
-Reported by **133** distros on [repology.org](https://repology.org/project/cosign). **15** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.1.1` | ⚠️ outdated |
-| Debian 14 | `3.1.1` | ⚠️ outdated |
-| Debian 13 | `2.5.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.6.2` | ⚠️ outdated |
-| Arch | `3.1.3` | ✅ latest |
-| Homebrew | `3.1.3` | ✅ latest |
-| Nix unstable | `3.1.3` | ✅ latest |
-| Alpine edge | `3.0.6` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.1.2` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `cosign` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -177,4 +161,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:21:55Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:35:36Z._
