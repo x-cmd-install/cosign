@@ -4,7 +4,7 @@
 
 Code signing and transparency for containers and binaries
 
-[![x-cmd/install — cosign Code Quality Monitoring Repo Card](https://repo.x-cmd.io/cosign.svg?lang=zh)](https://x-cmd.com/install/cosign)
+[![x-cmd/install — cosign Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/cosign.svg?lang=zh)](https://x-cmd.com/install/cosign)
 
 ## 安装
 
@@ -47,22 +47,22 @@ x install cosign
 
 ## 流行度
 
-- **Star**: 6,317 · **Fork**: 811 · **开放 issue**: 1,215 · **贡献者**: 277
+- **Star**: 6,319 · **Fork**: 812 · **开放 issue**: 1,215 · **贡献者**: 277
 
 ## 累计统计
 
-- **发布数**: 75 · **已合并 PR**: 3188 · **开放 PR**: 47 · **已关闭 issue**: 1104 · **开放 issue**: 111 · **提交数**: 3238
+- **发布数**: 75 · **已合并 PR**: 3188 · **开放 PR**: 48 · **已关闭 issue**: 1104 · **开放 issue**: 111 · **提交数**: 3238
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 26 | 23 | 2 | 3 | 34 |
-| last60d | 2026-07-24 | 2 | 44 | 27 | 6 | 7 | 51 |
-| 90d | 2026-06-24 | 4 | 74 | 28 | 12 | 11 | 79 |
-| last180d | 2026-03-26 | 7 | 161 | 38 | 29 | 19 | 163 |
-| 360d | 2025-09-27 | 14 | 335 | 42 | 95 | 38 | 326 |
-| last720d | 2024-10-02 | 22 | 646 | 46 | 180 | 60 | 648 |
+| 30d | 2026-08-24 | 0 | 23 | 24 | 2 | 3 | 34 |
+| last60d | 2026-07-25 | 2 | 44 | 28 | 6 | 7 | 51 |
+| 90d | 2026-06-25 | 4 | 73 | 29 | 12 | 11 | 79 |
+| last180d | 2026-03-27 | 7 | 161 | 39 | 29 | 19 | 163 |
+| 360d | 2025-09-28 | 14 | 335 | 43 | 95 | 38 | 326 |
+| last720d | 2024-10-03 | 22 | 645 | 47 | 180 | 60 | 648 |
 
 ## Release 资产
 
@@ -161,4 +161,4 @@ cosign 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:29:07Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:36:26Z._

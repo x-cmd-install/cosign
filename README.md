@@ -4,7 +4,7 @@
 
 Code signing and transparency for containers and binaries
 
-[![x-cmd/install — cosign Code Quality Monitoring Repo Card](https://repo.x-cmd.io/cosign.svg)](https://x-cmd.com/install/cosign)
+[![x-cmd/install — cosign Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/cosign.svg)](https://x-cmd.com/install/cosign)
 
 ## Install
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,317 · **Forks**: 811 · **Open issues**: 1,215 · **Contributors**: 277
+- **Stars**: 6,319 · **Forks**: 812 · **Open issues**: 1,215 · **Contributors**: 277
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 3188 · **Open PRs**: 47 · **Closed issues**: 1104 · **Open issues**: 111 · **Commits**: 3238
+- **Releases**: 75 · **Merged PRs**: 3188 · **Open PRs**: 48 · **Closed issues**: 1104 · **Open issues**: 111 · **Commits**: 3238
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 26 | 23 | 2 | 3 | 34 |
-| last60d | 2026-07-24 | 2 | 44 | 27 | 6 | 7 | 51 |
-| 90d | 2026-06-24 | 4 | 74 | 28 | 12 | 11 | 79 |
-| last180d | 2026-03-26 | 7 | 161 | 38 | 29 | 19 | 163 |
-| 360d | 2025-09-27 | 14 | 335 | 42 | 95 | 38 | 326 |
-| last720d | 2024-10-02 | 22 | 646 | 46 | 180 | 60 | 648 |
+| 30d | 2026-08-24 | 0 | 23 | 24 | 2 | 3 | 34 |
+| last60d | 2026-07-25 | 2 | 44 | 28 | 6 | 7 | 51 |
+| 90d | 2026-06-25 | 4 | 73 | 29 | 12 | 11 | 79 |
+| last180d | 2026-03-27 | 7 | 161 | 39 | 29 | 19 | 163 |
+| 360d | 2025-09-28 | 14 | 335 | 43 | 95 | 38 | 326 |
+| last720d | 2024-10-03 | 22 | 645 | 47 | 180 | 60 | 648 |
 
 ## Release assets
 
@@ -161,4 +161,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:29:06Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:36:25Z._
