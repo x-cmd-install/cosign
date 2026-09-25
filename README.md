@@ -14,11 +14,11 @@ x install cosign
 
 ## Code insight
 
-Total: **49,213** lines of code across **357** files in the top 5 languages.
+Total: **49,238** lines of code across **357** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 48,437 | 7,580 | 7,169 | 341 |
+| Go | 48,462 | 7,586 | 7,175 | 341 |
 | Makefile | 171 | 43 | 42 | 3 |
 | Yaml | 169 | 55 | 18 | 4 |
 | Sh | 158 | 137 | 56 | 8 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.1.3` (2026-08-06)
-- **Last commit**: 2026-09-18
+- **Last commit**: 2026-09-24
 - **Assets in release**: 83
 
 ## Popularity
 
-- **Stars**: 6,322 · **Forks**: 812 · **Open issues**: 1,215 · **Contributors**: 277
+- **Stars**: 6,325 · **Forks**: 812 · **Open issues**: 1,217 · **Contributors**: 277
 
 ## Totals (cumulative)
 
-- **Releases**: 75 · **Merged PRs**: 3188 · **Open PRs**: 51 · **Closed issues**: 1105 · **Open issues**: 110 · **Commits**: 3238
+- **Releases**: 75 · **Merged PRs**: 3191 · **Open PRs**: 49 · **Closed issues**: 1106 · **Open issues**: 111 · **Commits**: 3241
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 0 | 23 | 27 | 3 | 2 | 34 |
-| last60d | 2026-07-26 | 2 | 44 | 31 | 7 | 6 | 51 |
-| 90d | 2026-06-26 | 4 | 73 | 32 | 13 | 10 | 79 |
-| last180d | 2026-03-28 | 7 | 161 | 42 | 30 | 18 | 163 |
-| 360d | 2025-09-29 | 14 | 329 | 46 | 96 | 37 | 326 |
-| last720d | 2024-10-04 | 21 | 645 | 50 | 181 | 59 | 645 |
+| 30d | 2026-08-26 | 0 | 23 | 24 | 4 | 3 | 37 |
+| last60d | 2026-07-27 | 2 | 47 | 29 | 8 | 7 | 54 |
+| 90d | 2026-06-27 | 4 | 76 | 30 | 14 | 11 | 82 |
+| last180d | 2026-03-29 | 7 | 164 | 40 | 31 | 19 | 166 |
+| 360d | 2025-09-30 | 14 | 331 | 44 | 96 | 38 | 329 |
+| last720d | 2024-10-05 | 21 | 648 | 48 | 182 | 60 | 648 |
 
 ## Release assets
 
@@ -161,4 +161,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T05:53:51Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T06:12:02Z._
