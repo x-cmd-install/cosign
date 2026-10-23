@@ -14,11 +14,11 @@ x install cosign
 
 ## Code insight
 
-Total: **50,180** lines of code across **361** files in the top 5 languages.
+Total: **50,192** lines of code across **363** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 49,403 | 7,669 | 7,278 | 345 |
+| Go | 49,415 | 7,702 | 7,285 | 347 |
 | Makefile | 171 | 43 | 42 | 3 |
 | Yaml | 170 | 55 | 18 | 4 |
 | Sh | 158 | 137 | 56 | 8 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.1.4` (2026-10-20)
-- **Last commit**: 2026-10-21
+- **Last commit**: 2026-10-22
 - **Assets in release**: 83
 
 ## Popularity
 
-- **Stars**: 6,374 · **Forks**: 827 · **Open issues**: 1,227 · **Contributors**: 278
+- **Stars**: 6,376 · **Forks**: 827 · **Open issues**: 1,228 · **Contributors**: 279
 
 ## Totals (cumulative)
 
-- **Releases**: 76 · **Merged PRs**: 3209 · **Open PRs**: 45 · **Closed issues**: 1118 · **Open issues**: 109 · **Commits**: 3259
+- **Releases**: 76 · **Merged PRs**: 3211 · **Open PRs**: 44 · **Closed issues**: 1119 · **Open issues**: 109 · **Commits**: 3261
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 16 | 10 | 3 | 7 | 14 |
-| last60d | 2026-08-23 | 1 | 45 | 24 | 8 | 9 | 55 |
-| 90d | 2026-07-24 | 3 | 64 | 27 | 15 | 10 | 72 |
-| last180d | 2026-04-25 | 6 | 160 | 34 | 35 | 16 | 173 |
-| 360d | 2025-10-27 | 12 | 313 | 39 | 94 | 31 | 314 |
-| last720d | 2024-11-01 | 22 | 655 | 44 | 187 | 57 | 657 |
+| 30d | 2026-09-23 | 1 | 16 | 9 | 4 | 7 | 16 |
+| last60d | 2026-08-24 | 1 | 44 | 23 | 9 | 9 | 57 |
+| 90d | 2026-07-25 | 3 | 66 | 26 | 16 | 10 | 74 |
+| last180d | 2026-04-26 | 6 | 162 | 33 | 36 | 16 | 175 |
+| 360d | 2025-10-28 | 12 | 315 | 38 | 93 | 31 | 316 |
+| last720d | 2024-11-02 | 22 | 657 | 43 | 187 | 57 | 659 |
 
 ## Release assets
 
@@ -152,6 +152,22 @@ Lowest-scoring checks:
 | [cosign_checksums.txt.sigstore.json](https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign_checksums.txt.sigstore.json) | 6.5 KiB | `other` |
 | [release-cosign.pub](https://github.com/sigstore/cosign/releases/download/v3.1.4/release-cosign.pub) | 178 B | `other` |
 
+## Distribution status
+
+Reported by **136** distros on [repology.org](https://repology.org/project/cosign). **6** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.1.1` | ⚠️ outdated |
+| Debian 14 | `3.1.1` | ⚠️ outdated |
+| Debian 13 | `2.5.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.6.2` | ⚠️ outdated |
+| Arch | `3.1.3` | ⚠️ outdated |
+| Homebrew | `3.1.4` | ✅ latest |
+| Nix unstable | `3.1.3` | ⚠️ outdated |
+| Alpine edge | `3.0.6` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.1.3` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `cosign` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -161,4 +177,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:52:25Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T06:06:17Z._
