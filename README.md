@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,379 · **Forks**: 828 · **Open issues**: 1,228 · **Contributors**: 279
+- **Stars**: 6,382 · **Forks**: 830 · **Open issues**: 1,228 · **Contributors**: 279
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 1 | 13 | 9 | 3 | 6 | 16 |
-| last60d | 2026-08-25 | 1 | 44 | 23 | 9 | 9 | 57 |
-| 90d | 2026-07-26 | 3 | 66 | 26 | 16 | 10 | 74 |
-| last180d | 2026-04-27 | 6 | 161 | 33 | 35 | 16 | 175 |
-| 360d | 2025-10-29 | 12 | 315 | 38 | 92 | 31 | 316 |
-| last720d | 2024-11-03 | 22 | 657 | 43 | 187 | 57 | 658 |
+| 30d | 2026-09-25 | 1 | 13 | 9 | 3 | 6 | 16 |
+| last60d | 2026-08-26 | 1 | 41 | 22 | 9 | 9 | 57 |
+| 90d | 2026-07-27 | 3 | 66 | 26 | 16 | 10 | 74 |
+| last180d | 2026-04-28 | 6 | 161 | 33 | 35 | 16 | 175 |
+| 360d | 2025-10-30 | 12 | 315 | 38 | 90 | 31 | 316 |
+| last720d | 2024-11-04 | 22 | 654 | 43 | 186 | 57 | 658 |
 
 ## Release assets
 
@@ -154,12 +154,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **136** distros on [repology.org](https://repology.org/project/cosign). **6** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
+Reported by **137** distros on [repology.org](https://repology.org/project/cosign). **6** are ✅ on the latest upstream release, **87** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `3.1.1` | ⚠️ outdated |
-| Debian 14 | `3.1.1` | ⚠️ outdated |
+| Debian unstable | `2.6.3` | 🪦 legacy |
+| Debian 14 | `2.6.3` | 🪦 legacy |
 | Debian 13 | `2.5.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.6.2` | ⚠️ outdated |
 | Arch | `3.1.3` | ⚠️ outdated |
@@ -177,4 +177,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T05:54:24Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T05:48:56Z._
