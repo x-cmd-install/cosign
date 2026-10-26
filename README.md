@@ -14,11 +14,11 @@ x install cosign
 
 ## Code insight
 
-Total: **50,192** lines of code across **363** files in the top 5 languages.
+Total: **49,653** lines of code across **361** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 49,415 | 7,702 | 7,285 | 347 |
+| Go | 48,876 | 7,650 | 7,198 | 345 |
 | Makefile | 171 | 43 | 42 | 3 |
 | Yaml | 170 | 55 | 18 | 4 |
 | Sh | 158 | 137 | 56 | 8 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.1.4` (2026-10-20)
-- **Last commit**: 2026-10-22
+- **Last commit**: 2026-10-26
 - **Assets in release**: 83
 
 ## Popularity
 
-- **Stars**: 6,382 · **Forks**: 830 · **Open issues**: 1,228 · **Contributors**: 279
+- **Stars**: 6,385 · **Forks**: 833 · **Open issues**: 1,229 · **Contributors**: 279
 
 ## Totals (cumulative)
 
-- **Releases**: 76 · **Merged PRs**: 3211 · **Open PRs**: 44 · **Closed issues**: 1119 · **Open issues**: 109 · **Commits**: 3261
+- **Releases**: 76 · **Merged PRs**: 3212 · **Open PRs**: 44 · **Closed issues**: 1120 · **Open issues**: 109 · **Commits**: 3262
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 1 | 13 | 9 | 3 | 6 | 16 |
-| last60d | 2026-08-26 | 1 | 41 | 22 | 9 | 9 | 57 |
-| 90d | 2026-07-27 | 3 | 66 | 26 | 16 | 10 | 74 |
-| last180d | 2026-04-28 | 6 | 161 | 33 | 35 | 16 | 175 |
-| 360d | 2025-10-30 | 12 | 315 | 38 | 90 | 31 | 316 |
-| last720d | 2024-11-04 | 22 | 654 | 43 | 186 | 57 | 658 |
+| 30d | 2026-09-26 | 1 | 14 | 9 | 4 | 6 | 14 |
+| last60d | 2026-08-27 | 1 | 38 | 22 | 9 | 9 | 56 |
+| 90d | 2026-07-28 | 3 | 66 | 26 | 17 | 10 | 72 |
+| last180d | 2026-04-29 | 6 | 162 | 33 | 36 | 16 | 175 |
+| 360d | 2025-10-31 | 12 | 315 | 38 | 91 | 31 | 314 |
+| last720d | 2024-11-05 | 22 | 655 | 43 | 185 | 57 | 658 |
 
 ## Release assets
 
@@ -158,8 +158,8 @@ Reported by **137** distros on [repology.org](https://repology.org/project/cosig
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `2.6.3` | 🪦 legacy |
-| Debian 14 | `2.6.3` | 🪦 legacy |
+| Debian unstable | `3.1.1` | ⚠️ outdated |
+| Debian 14 | `3.1.1` | ⚠️ outdated |
 | Debian 13 | `2.5.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.6.2` | ⚠️ outdated |
 | Arch | `3.1.3` | ⚠️ outdated |
@@ -177,4 +177,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:48:56Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:57:04Z._
