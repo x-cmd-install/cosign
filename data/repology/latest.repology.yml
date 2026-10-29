@@ -1,24 +1,12 @@
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: cosign
-  binname: cosign
-  visiblename: cosign
-  version: 3.1.3
-  origversion: 3.1.3-1
-  status: outdated
-  summary: Container Signing with support for ephemeral keys and Sigstore signing
-  licenses:
-    - Apache-2.0
-- repo: debian_unstable
-  subrepo: sid/main
+- repo: raspbian_testing
+  subrepo: main
   srcname: cosign
   binnames:
     - cosign
     - golang-github-sigstore-cosign-dev
-    - golang-github-sigstore-cosign-v3-dev
   visiblename: cosign
   version: 3.1.1
-  origversion: 3.1.1-2
+  origversion: 3.1.1-1
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -103,22 +91,6 @@
     - ariadne@dereferenced.org
   licenses:
     - Apache-2.0
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: cosign
-  binnames:
-    - cosign
-    - golang-github-sigstore-cosign-dev
-    - golang-github-sigstore-cosign-v3-dev
-  visiblename: cosign
-  version: 3.1.1
-  origversion: 3.1.1-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - simon@josefsson.org
-  categories:
-    - misc
 - repo: alpine_edge
   subrepo: community
   srcname: cosign
@@ -235,6 +207,38 @@
   visiblename: cosign
   version: 3.1.1
   origversion: 3.1.1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - simon@josefsson.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: cosign
+  binnames:
+    - cosign
+    - golang-github-sigstore-cosign-dev
+    - golang-github-sigstore-cosign-v3-dev
+  visiblename: cosign
+  version: 3.1.1
+  origversion: 3.1.1-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - simon@josefsson.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: cosign
+  binnames:
+    - cosign
+    - golang-github-sigstore-cosign-dev
+    - golang-github-sigstore-cosign-v3-dev
+  visiblename: cosign
+  version: 3.1.1
+  origversion: 3.1.1-2
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -380,6 +384,17 @@
   summary: Container Signing with support for ephemeral keys and Sigstore signing
   licenses:
     - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: cosign
+  binname: cosign
+  visiblename: cosign
+  version: 3.1.3
+  origversion: 3.1.3-1
+  status: outdated
+  summary: Container Signing with support for ephemeral keys and Sigstore signing
+  licenses:
+    - Apache-2.0
 - repo: manjaro_unstable
   subrepo: extra
   srcname: cosign
@@ -461,6 +476,21 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: cosign
+  binnames:
+    - cosign
+    - golang-github-sigstore-cosign-dev
+  visiblename: cosign
+  version: 3.1.1
+  origversion: 3.1.1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - simon@josefsson.org
+  categories:
+    - universe/misc
 - repo: opensuse_security_tumbleweed
   srcname: cosign
   binnames:
@@ -490,21 +520,6 @@
   summary: Container Signing with support for ephemeral keys and Sigstore signing
   licenses:
     - Apache-2.0
-- repo: raspbian_testing
-  subrepo: main
-  srcname: cosign
-  binnames:
-    - cosign
-    - golang-github-sigstore-cosign-dev
-  visiblename: cosign
-  version: 3.1.1
-  origversion: 3.1.1-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - simon@josefsson.org
-  categories:
-    - misc
 - repo: scoop
   subrepo: main
   binname: cosign
@@ -546,21 +561,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: cosign
-  binnames:
-    - cosign
-    - golang-github-sigstore-cosign-dev
-  visiblename: cosign
-  version: 3.1.1
-  origversion: 3.1.1-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - simon@josefsson.org
-  categories:
-    - universe/misc
 - repo: wakemeops
   subrepo: secops
   binname: cosign
@@ -606,186 +606,8 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: secops
-  binname: cosign
-  visiblename: cosign
-  version: 3.0.2
-  origversion: 3.0.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: cosign
-  binname: sget-bash-completion
-  visiblename: sget-bash-completion
-  version: 1.12.1
-  origversion: 1.12.1-r6
-  status: outdated
-  summary: container signing tool with support for ephemeral keys and Sigstore signing
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: cosign
-  binname: cosign
-  visiblename: cosign
-  version: 1.12.1
-  origversion: 1.12.1-r6
-  status: outdated
-  summary: container signing tool with support for ephemeral keys and Sigstore signing
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: cosign
-  binname: sget
-  visiblename: sget
-  version: 1.12.1
-  origversion: 1.12.1-r6
-  status: outdated
-  summary: secure container image fetching tool
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: cosign
-  binname: sget-fish-completion
-  visiblename: sget-fish-completion
-  version: 1.12.1
-  origversion: 1.12.1-r6
-  status: outdated
-  summary: container signing tool with support for ephemeral keys and Sigstore signing
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: cosign
-  binname: cosign-zsh-completion
-  visiblename: cosign-zsh-completion
-  version: 1.12.1
-  origversion: 1.12.1-r6
-  status: outdated
-  summary: Zsh completions for cosign
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: cosign
-  binname: sget-zsh-completion
-  visiblename: sget-zsh-completion
-  version: 1.12.1
-  origversion: 1.12.1-r6
-  status: outdated
-  summary: container signing tool with support for ephemeral keys and Sigstore signing
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: cosign
-  binname: cosign-fish-completion
-  visiblename: cosign-fish-completion
-  version: 1.12.1
-  origversion: 1.12.1-r6
-  status: outdated
-  summary: Fish completions for cosign
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: community
-  srcname: cosign
-  binname: cosign-bash-completion
-  visiblename: cosign-bash-completion
-  version: 1.12.1
-  origversion: 1.12.1-r6
-  status: outdated
-  summary: Bash completions for cosign
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: cosign
-  binname: sget
-  visiblename: sget
-  version: 2.0.1
-  origversion: 2.0.1-r6
-  status: outdated
-  summary: secure container image fetching tool
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: cosign
-  binname: sget-bash-completion
-  visiblename: sget-bash-completion
-  version: 2.0.1
-  origversion: 2.0.1-r6
-  status: outdated
-  summary: container signing tool with support for ephemeral keys and Sigstore signing
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: cosign
-  binname: sget-fish-completion
-  visiblename: sget-fish-completion
-  version: 2.0.1
-  origversion: 2.0.1-r6
-  status: outdated
-  summary: container signing tool with support for ephemeral keys and Sigstore signing
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: community
-  srcname: cosign
-  binname: sget-zsh-completion
-  visiblename: sget-zsh-completion
-  version: 2.0.1
-  origversion: 2.0.1-r6
-  status: outdated
-  summary: container signing tool with support for ephemeral keys and Sigstore signing
-  maintainers:
-    - ariadne@dereferenced.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: deepin_25
-  subrepo: community
+- repo: raspbian_stable
+  subrepo: main
   srcname: cosign
   binnames:
     - cosign
@@ -800,6 +622,118 @@
   categories:
     - misc
   vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: cosign
+  binname: sget-bash-completion
+  visiblename: sget-bash-completion
+  version: 1.12.1
+  origversion: 1.12.1-r6
+  status: outdated
+  summary: container signing tool with support for ephemeral keys and Sigstore signing
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: cosign
+  binname: cosign
+  visiblename: cosign
+  version: 1.12.1
+  origversion: 1.12.1-r6
+  status: outdated
+  summary: container signing tool with support for ephemeral keys and Sigstore signing
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: cosign
+  binname: sget
+  visiblename: sget
+  version: 1.12.1
+  origversion: 1.12.1-r6
+  status: outdated
+  summary: secure container image fetching tool
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: cosign
+  binname: sget-fish-completion
+  visiblename: sget-fish-completion
+  version: 1.12.1
+  origversion: 1.12.1-r6
+  status: outdated
+  summary: container signing tool with support for ephemeral keys and Sigstore signing
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: cosign
+  binname: cosign-zsh-completion
+  visiblename: cosign-zsh-completion
+  version: 1.12.1
+  origversion: 1.12.1-r6
+  status: outdated
+  summary: Zsh completions for cosign
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: cosign
+  binname: sget-zsh-completion
+  visiblename: sget-zsh-completion
+  version: 1.12.1
+  origversion: 1.12.1-r6
+  status: outdated
+  summary: container signing tool with support for ephemeral keys and Sigstore signing
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: cosign
+  binname: cosign-fish-completion
+  visiblename: cosign-fish-completion
+  version: 1.12.1
+  origversion: 1.12.1-r6
+  status: outdated
+  summary: Fish completions for cosign
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: community
+  srcname: cosign
+  binname: cosign-bash-completion
+  visiblename: cosign-bash-completion
+  version: 1.12.1
+  origversion: 1.12.1-r6
+  status: outdated
+  summary: Bash completions for cosign
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
 - repo: alpine_3_18
   subrepo: community
   srcname: cosign
@@ -851,6 +785,62 @@
   origversion: 2.0.1-r6
   status: outdated
   summary: Zsh completions for cosign
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: cosign
+  binname: sget
+  visiblename: sget
+  version: 2.0.1
+  origversion: 2.0.1-r6
+  status: outdated
+  summary: secure container image fetching tool
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: cosign
+  binname: sget-bash-completion
+  visiblename: sget-bash-completion
+  version: 2.0.1
+  origversion: 2.0.1-r6
+  status: outdated
+  summary: container signing tool with support for ephemeral keys and Sigstore signing
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: cosign
+  binname: sget-fish-completion
+  visiblename: sget-fish-completion
+  version: 2.0.1
+  origversion: 2.0.1-r6
+  status: outdated
+  summary: container signing tool with support for ephemeral keys and Sigstore signing
+  maintainers:
+    - ariadne@dereferenced.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: community
+  srcname: cosign
+  binname: sget-zsh-completion
+  visiblename: sget-zsh-completion
+  version: 2.0.1
+  origversion: 2.0.1-r6
+  status: outdated
+  summary: container signing tool with support for ephemeral keys and Sigstore signing
   maintainers:
     - ariadne@dereferenced.org
   licenses:
@@ -1135,6 +1125,16 @@
     - ariadne@dereferenced.org
   licenses:
     - Apache-2.0
+  vulnerable: true
+- repo: wakemeops
+  subrepo: secops
+  binname: cosign
+  visiblename: cosign
+  version: 2.4.1
+  origversion: 2.4.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
   vulnerable: true
 - repo: chocolatey
   binname: Cosign
@@ -1176,16 +1176,6 @@
   categories:
     - misc
   vulnerable: true
-- repo: wakemeops
-  subrepo: secops
-  binname: cosign
-  visiblename: cosign
-  version: 3.0.1
-  origversion: 3.0.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
 - repo: debian_unstable
   subrepo: sid/main
   srcname: cosign
@@ -1202,10 +1192,40 @@
   categories:
     - misc
   vulnerable: true
+- repo: deepin_25
+  subrepo: community
+  srcname: cosign
+  binnames:
+    - cosign
+    - golang-github-sigstore-cosign-dev
+  visiblename: cosign
+  version: 2.5.0
+  origversion: 2.5.0-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - simon@josefsson.org
+  categories:
+    - misc
+  vulnerable: true
 - repo: gentoo
   srcname: app-containers/cosign
   visiblename: app-containers/cosign
   version: 3.0.3
+  origversion: null
+  status: legacy
+  summary: container signing utility
+  maintainers:
+    - williamh@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+  vulnerable: true
+- repo: liguros_develop
+  srcname: app-containers/cosign
+  visiblename: app-containers/cosign
+  version: 2.6.1
   origversion: null
   status: legacy
   summary: container signing utility
@@ -1304,31 +1324,6 @@
   srcname: app-containers/cosign
   visiblename: app-containers/cosign
   version: 2.5.0
-  origversion: null
-  status: legacy
-  summary: container signing utility
-  maintainers:
-    - williamh@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-  vulnerable: true
-- repo: spack
-  srcname: cosign
-  visiblename: cosign
-  version: 2.2.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-spack@repology
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: liguros_develop
-  srcname: app-containers/cosign
-  visiblename: app-containers/cosign
-  version: 2.6.1
   origversion: null
   status: legacy
   summary: container signing utility
@@ -1473,19 +1468,6 @@
     - Unspecified
   vulnerable: true
 - repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: cosign
-  visiblename: cosign
-  version: 2.2.3
-  origversion: 2.2.3-150400.3.17.1
-  status: legacy
-  summary: Container Signing, Verification and Storage in an OCI registry
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
   subrepo: updates/sle
   srcname: cosign
   visiblename: cosign
@@ -1563,6 +1545,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: cosign
+  visiblename: cosign
+  version: 2.2.3
+  origversion: 2.2.3-150400.3.17.1
+  status: legacy
+  summary: Container Signing, Verification and Storage in an OCI registry
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: parrot
   subrepo: parrot/main
   srcname: cosign
@@ -1611,22 +1606,6 @@
   categories:
     - golang
   vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
-  srcname: cosign
-  binnames:
-    - cosign
-    - golang-github-sigstore-cosign-dev
-  visiblename: cosign
-  version: 2.5.0
-  origversion: 2.5.0-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - simon@josefsson.org
-  categories:
-    - misc
-  vulnerable: true
 - repo: rosa_13
   subrepo: contrib/release
   srcname: cosign
@@ -1644,15 +1623,16 @@
   categories:
     - Networking/File transfer
   vulnerable: true
-- repo: wakemeops
-  subrepo: secops
-  binname: cosign
+- repo: spack
+  srcname: cosign
   visiblename: cosign
-  version: 3.0.3
-  origversion: 3.0.3-1~ops2deb
-  status: legacy
+  version: 2.2.4
+  origversion: null
+  status: outdated
   maintainers:
-    - ops2deb@upciti.com
+    - fallback-mnt-spack@repology
+  licenses:
+    - Apache-2.0
   vulnerable: true
 - repo: ubuntu_25_04
   subrepo: plucky/universe
@@ -1718,6 +1698,36 @@
   visiblename: cosign
   version: 3.0.4
   origversion: 3.0.4-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: secops
+  binname: cosign
+  visiblename: cosign
+  version: 3.0.3
+  origversion: 3.0.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: secops
+  binname: cosign
+  visiblename: cosign
+  version: 3.0.2
+  origversion: 3.0.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+  vulnerable: true
+- repo: wakemeops
+  subrepo: secops
+  binname: cosign
+  visiblename: cosign
+  version: 3.0.1
+  origversion: 3.0.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -1798,16 +1808,6 @@
   visiblename: cosign
   version: 2.4.2
   origversion: 2.4.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-  vulnerable: true
-- repo: wakemeops
-  subrepo: secops
-  binname: cosign
-  visiblename: cosign
-  version: 2.4.1
-  origversion: 2.4.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
