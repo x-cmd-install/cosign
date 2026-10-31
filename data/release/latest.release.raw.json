@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 55879897,
       "digest": "sha256:51232128175fd080ae6fd3bb095901e5607d42737eefa9bbb3a4f76c20107cc8",
-      "download_count": 96,
+      "download_count": 114,
       "created_at": "2026-10-20T18:04:06Z",
       "updated_at": "2026-10-20T18:04:09Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-3.1.4-1.aarch64.rpm"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 56779081,
       "digest": "sha256:0e11f7dd0e4ec9fed0f3dcd71c6951862a8e0ab038bdc798c215d82c16b512cb",
-      "download_count": 16,
+      "download_count": 17,
       "created_at": "2026-10-20T18:04:10Z",
       "updated_at": "2026-10-20T18:04:14Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-3.1.4-1.armv7hl.rpm"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 58654724,
       "digest": "sha256:bb87ea4094fea2a3f6b327b9d9bb76edcc3129256015e34e2d51d0dda045f811",
-      "download_count": 17,
+      "download_count": 18,
       "created_at": "2026-10-20T18:04:22Z",
       "updated_at": "2026-10-20T18:04:27Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-3.1.4-1.riscv64.rpm"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 60922290,
       "digest": "sha256:02fd4fe524932ccba09f7762fce76be35e5570d2023a1093cce776eefc6b62df",
-      "download_count": 1633,
+      "download_count": 1766,
       "created_at": "2026-10-20T18:04:02Z",
       "updated_at": "2026-10-20T18:04:05Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-3.1.4-1.x86_64.rpm"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 6651,
       "digest": "sha256:b064e69b4226f22bcfae929e6c738853ffccd082ffe4ab6178f1787de79dface",
-      "download_count": 93,
+      "download_count": 98,
       "created_at": "2026-10-20T18:05:08Z",
       "updated_at": "2026-10-20T18:05:09Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-3.1.4-1.x86_64.rpm.sigstore.json"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 105951973,
       "digest": "sha256:9d1e4abe2b6be279ed0d2ff706fde1ccd738747c834e3e6d44039c238867334f",
-      "download_count": 893,
+      "download_count": 996,
       "created_at": "2026-10-20T18:02:16Z",
       "updated_at": "2026-10-20T18:02:22Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-darwin-amd64"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 4133,
       "digest": "sha256:af2d483f32b546f121afd96feabda3ab0aeb3d45ec28d53f05e542ad75637cf0",
-      "download_count": 492,
+      "download_count": 572,
       "created_at": "2026-10-20T18:04:40Z",
       "updated_at": "2026-10-20T18:04:40Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-darwin-amd64-kms.sigstore.json"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 6707,
       "digest": "sha256:052476b9c9f8be262601131a4cc6c34bb41935e1877354d13dc296473d02a879",
-      "download_count": 63,
+      "download_count": 70,
       "created_at": "2026-10-20T18:04:50Z",
       "updated_at": "2026-10-20T18:04:51Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-darwin-amd64.sigstore.json"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 449199,
       "digest": "sha256:8a5e4387e7b8a6c9a216c0da676c596894a15f803419449723ff702c998c675a",
-      "download_count": 28,
+      "download_count": 29,
       "created_at": "2026-10-20T18:04:30Z",
       "updated_at": "2026-10-20T18:04:30Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-darwin-amd64_3.1.4_darwin_amd64.sbom.json"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 99023586,
       "digest": "sha256:9f9b8cd557cf2e5b3df3373a00baa005a86b02391e3e06dd0ce37b3a1533d3a4",
-      "download_count": 5522,
+      "download_count": 6015,
       "created_at": "2026-10-20T18:02:23Z",
       "updated_at": "2026-10-20T18:02:27Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-darwin-arm64"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 3889,
       "digest": "sha256:9d3eb91d2cb1b3d08ea6f7c18a4c7e16dfbf71860f50030b6cee1136da797fbe",
-      "download_count": 1876,
+      "download_count": 2115,
       "created_at": "2026-10-20T18:04:41Z",
       "updated_at": "2026-10-20T18:04:41Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-darwin-arm64-kms.sigstore.json"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 6699,
       "digest": "sha256:aa0370256b42e2a510d98cc48a66f2bdb801885c4a0f0079d612803dd9427dc4",
-      "download_count": 1460,
+      "download_count": 1616,
       "created_at": "2026-10-20T18:04:51Z",
       "updated_at": "2026-10-20T18:04:52Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-darwin-arm64.sigstore.json"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 449199,
       "digest": "sha256:2a2a0919be64cb2e07e4d9ccebe27b24802bea027437626e0465e8982d464261",
-      "download_count": 15,
+      "download_count": 17,
       "created_at": "2026-10-20T18:04:31Z",
       "updated_at": "2026-10-20T18:04:31Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-darwin-arm64_3.1.4_darwin_arm64.sbom.json"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 145688404,
       "digest": "sha256:424e2c97d0b45fd7a6b608a87f090f35633f4c23ece5f092d48bba11aaf4bbfa",
-      "download_count": 125773,
+      "download_count": 145228,
       "created_at": "2026-10-20T18:02:28Z",
       "updated_at": "2026-10-20T18:02:34Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-amd64"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 4085,
       "digest": "sha256:b1282021bf1d6f1031d5df46cba12386c9b438d56d276d72f4df184a0008512b",
-      "download_count": 39368,
+      "download_count": 45365,
       "created_at": "2026-10-20T18:04:42Z",
       "updated_at": "2026-10-20T18:04:42Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-amd64-kms.sigstore.json"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 6747,
       "digest": "sha256:355244bb0186e950ced20f03106640ba3a4630e1223d0467ff34bcebe10bb18a",
-      "download_count": 39935,
+      "download_count": 45963,
       "created_at": "2026-10-20T18:04:52Z",
       "updated_at": "2026-10-20T18:04:52Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-amd64.sigstore.json"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 437953,
       "digest": "sha256:7bf7fede0ef7d1b0c12efd1ffe8e7c1b50d894da8e21d4b838db6bcd9d66cb8b",
-      "download_count": 108,
+      "download_count": 121,
       "created_at": "2026-10-20T18:04:32Z",
       "updated_at": "2026-10-20T18:04:32Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-amd64_3.1.4_linux_amd64.sbom.json"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 136723776,
       "digest": "sha256:09e77a313910cf5c4774508d85d017d9c60983f41bf657f83ecbd3892f7952cb",
-      "download_count": 33,
+      "download_count": 35,
       "created_at": "2026-10-20T18:02:44Z",
       "updated_at": "2026-10-20T18:02:51Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-arm"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 4129,
       "digest": "sha256:e1dcdd60b3c7043ad23fc18603f3473b2e96c95439be7db42990974305f8f2e3",
-      "download_count": 492,
+      "download_count": 572,
       "created_at": "2026-10-20T18:04:44Z",
       "updated_at": "2026-10-20T18:04:44Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-arm-kms.sigstore.json"
@@ -1039,7 +1039,7 @@
       "state": "uploaded",
       "size": 136437761,
       "digest": "sha256:ade83b7aac62e131cacfe96d958948b2150cc9efec46a570a2649b8e27dedad2",
-      "download_count": 16979,
+      "download_count": 18889,
       "created_at": "2026-10-20T18:01:54Z",
       "updated_at": "2026-10-20T18:01:58Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-arm64"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 3985,
       "digest": "sha256:844c90077824f8134a8ef5c0d13f60ce4b2942d97e072d7e4c211e9f1d495f76",
-      "download_count": 8282,
+      "download_count": 9001,
       "created_at": "2026-10-20T18:04:38Z",
       "updated_at": "2026-10-20T18:04:38Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-arm64-kms.sigstore.json"
@@ -1111,7 +1111,7 @@
       "state": "uploaded",
       "size": 6651,
       "digest": "sha256:82d1412476b161277e65614a7e21c715fe3612c01d0cf0f77992e8f0081938af",
-      "download_count": 7827,
+      "download_count": 8471,
       "created_at": "2026-10-20T18:04:48Z",
       "updated_at": "2026-10-20T18:04:48Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-arm64.sigstore.json"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 437953,
       "digest": "sha256:73482b6a9f3dd0b8d218dffb9bd00e87debe146752209c13d23ea4c709b97243",
-      "download_count": 16,
+      "download_count": 18,
       "created_at": "2026-10-20T18:04:27Z",
       "updated_at": "2026-10-20T18:04:27Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-arm64_3.1.4_linux_arm64.sbom.json"
@@ -1183,7 +1183,7 @@
       "state": "uploaded",
       "size": 436409,
       "digest": "sha256:e9e71529e1aeaddeeee67841866dae224746c209e23e0c512ad2d95a2deacdf9",
-      "download_count": 20,
+      "download_count": 21,
       "created_at": "2026-10-20T18:04:34Z",
       "updated_at": "2026-10-20T18:04:34Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-arm_3.1.4_linux_arm.sbom.json"
@@ -1219,7 +1219,7 @@
       "state": "uploaded",
       "size": 202665168,
       "digest": "sha256:2e4e81cd7b7fe64f37af36a74cd1bb1fff792901056ea2fb692e29dab74b0dd2",
-      "download_count": 41,
+      "download_count": 42,
       "created_at": "2026-10-20T18:02:34Z",
       "updated_at": "2026-10-20T18:02:43Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-pivkey-pkcs11key-amd64"
@@ -1255,7 +1255,7 @@
       "state": "uploaded",
       "size": 4033,
       "digest": "sha256:fc9ef7ed28b19475b690ec79f898d71cf1072aefc23acb37eee501bec7dc08b6",
-      "download_count": 492,
+      "download_count": 573,
       "created_at": "2026-10-20T18:04:43Z",
       "updated_at": "2026-10-20T18:04:43Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-pivkey-pkcs11key-amd64-kms.sigstore.json"
@@ -1291,7 +1291,7 @@
       "state": "uploaded",
       "size": 6651,
       "digest": "sha256:992491819515e6e4e3a77fcc464bbdeffacb633f926f99b8067da1026079f585",
-      "download_count": 21,
+      "download_count": 22,
       "created_at": "2026-10-20T18:04:53Z",
       "updated_at": "2026-10-20T18:04:53Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-pivkey-pkcs11key-amd64.sigstore.json"
@@ -1399,7 +1399,7 @@
       "state": "uploaded",
       "size": 4033,
       "digest": "sha256:1aed9908d678c50f11dfda01c43a8969ac9859483b542ea551ec596d6db7f9ef",
-      "download_count": 481,
+      "download_count": 561,
       "created_at": "2026-10-20T18:04:39Z",
       "updated_at": "2026-10-20T18:04:39Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-pivkey-pkcs11key-arm64-kms.sigstore.json"
@@ -1507,7 +1507,7 @@
       "state": "uploaded",
       "size": 142671129,
       "digest": "sha256:0887fca23319ea017cc827e6a845ba83722a36bf9e932f35c747ca83c14cec49",
-      "download_count": 94,
+      "download_count": 115,
       "created_at": "2026-10-20T18:02:59Z",
       "updated_at": "2026-10-20T18:03:05Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-ppc64le"
@@ -1543,7 +1543,7 @@
       "state": "uploaded",
       "size": 4081,
       "digest": "sha256:434c439565d89ee6cb7d05376340298185bd52505c896aaaffbfa84fa64f9a0f",
-      "download_count": 491,
+      "download_count": 571,
       "created_at": "2026-10-20T18:04:46Z",
       "updated_at": "2026-10-20T18:04:46Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-ppc64le-kms.sigstore.json"
@@ -1651,7 +1651,7 @@
       "state": "uploaded",
       "size": 133024717,
       "digest": "sha256:24f3865df0fd9b055827b888d56e13583112ac7d4c87b45967af1f0febf35455",
-      "download_count": 92,
+      "download_count": 113,
       "created_at": "2026-10-20T18:02:09Z",
       "updated_at": "2026-10-20T18:02:16Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-riscv64"
@@ -1687,7 +1687,7 @@
       "state": "uploaded",
       "size": 3933,
       "digest": "sha256:241c15cf648bbe8b1e47776e61204c312e60697b12ae4f96de942d9f786fdff5",
-      "download_count": 493,
+      "download_count": 573,
       "created_at": "2026-10-20T18:04:39Z",
       "updated_at": "2026-10-20T18:04:40Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-riscv64-kms.sigstore.json"
@@ -1795,7 +1795,7 @@
       "state": "uploaded",
       "size": 147869200,
       "digest": "sha256:777978d576af893a3daf1fcf3b0e9178cebcbc083a669f6125b6c97b8e1fe433",
-      "download_count": 99,
+      "download_count": 121,
       "created_at": "2026-10-20T18:02:51Z",
       "updated_at": "2026-10-20T18:02:58Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-s390x"
@@ -1831,7 +1831,7 @@
       "state": "uploaded",
       "size": 4081,
       "digest": "sha256:922ee14388708697630c41e72d0bcffd85121432ab50a9c7d21425a42174d899",
-      "download_count": 489,
+      "download_count": 569,
       "created_at": "2026-10-20T18:04:45Z",
       "updated_at": "2026-10-20T18:04:46Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-s390x-kms.sigstore.json"
@@ -1903,7 +1903,7 @@
       "state": "uploaded",
       "size": 437953,
       "digest": "sha256:9b0c04b64d1885457ccebe723dda3affb007196be0d5c87ba9ba202eb7e6fcfe",
-      "download_count": 17,
+      "download_count": 18,
       "created_at": "2026-10-20T18:04:34Z",
       "updated_at": "2026-10-20T18:04:35Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-s390x_3.1.4_linux_s390x.sbom.json"
@@ -1939,7 +1939,7 @@
       "state": "uploaded",
       "size": 191066624,
       "digest": "sha256:cbe953787074611f1334cbf37dc1cf953995bb8c45398eb4fc7bb781d29c1f2a",
-      "download_count": 3704,
+      "download_count": 4183,
       "created_at": "2026-10-20T18:03:06Z",
       "updated_at": "2026-10-20T18:03:15Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-windows-amd64.exe"
@@ -1975,7 +1975,7 @@
       "state": "uploaded",
       "size": 4177,
       "digest": "sha256:156f88d4b39ece24c53f9d74b631c91cc23a59c55701db9d77ecf84e75bea3ae",
-      "download_count": 599,
+      "download_count": 694,
       "created_at": "2026-10-20T18:04:47Z",
       "updated_at": "2026-10-20T18:04:47Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-windows-amd64.exe-kms.sigstore.json"
@@ -2011,7 +2011,7 @@
       "state": "uploaded",
       "size": 6555,
       "digest": "sha256:c51171a1afd22f3a96787c23f5c5e2adf145b2c0c812586a7a720fde61e1118c",
-      "download_count": 247,
+      "download_count": 277,
       "created_at": "2026-10-20T18:04:57Z",
       "updated_at": "2026-10-20T18:04:57Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-windows-amd64.exe.sigstore.json"
@@ -2047,7 +2047,7 @@
       "state": "uploaded",
       "size": 463031,
       "digest": "sha256:5cb9fe0952fad14152e29c9e1e92b04f42727e18ca771919fa7fef040e17860c",
-      "download_count": 43,
+      "download_count": 48,
       "created_at": "2026-10-20T18:04:36Z",
       "updated_at": "2026-10-20T18:04:37Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-windows-amd64.exe_3.1.4_windows_amd64.sbom.json"
@@ -2083,7 +2083,7 @@
       "state": "uploaded",
       "size": 57306043,
       "digest": "sha256:7d53d06a37273abf68be62831435998b251b2b14a3ab19d4f4a82417e12dc1c7",
-      "download_count": 34,
+      "download_count": 37,
       "created_at": "2026-10-20T18:03:32Z",
       "updated_at": "2026-10-20T18:03:35Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign_3.1.4_aarch64.apk"
@@ -2155,7 +2155,7 @@
       "state": "uploaded",
       "size": 60909522,
       "digest": "sha256:6db74c0ad58e69fca184bf0c6c4be40304aa12ab81b4b672042f91979934d547",
-      "download_count": 5389,
+      "download_count": 5919,
       "created_at": "2026-10-20T18:03:39Z",
       "updated_at": "2026-10-20T18:03:42Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign_3.1.4_amd64.deb"
@@ -2191,7 +2191,7 @@
       "state": "uploaded",
       "size": 6507,
       "digest": "sha256:e389ed26e91f3b757465ba3ca8334f5ba4bb10127042b33332cb612e69c87e2d",
-      "download_count": 30,
+      "download_count": 31,
       "created_at": "2026-10-20T18:05:03Z",
       "updated_at": "2026-10-20T18:05:03Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign_3.1.4_amd64.deb.sigstore.json"
@@ -2227,7 +2227,7 @@
       "state": "uploaded",
       "size": 55888004,
       "digest": "sha256:ccd63f2710d7fd4becd9f3db93b4bec15e154893fe7aa8260136575092398561",
-      "download_count": 629,
+      "download_count": 699,
       "created_at": "2026-10-20T18:03:43Z",
       "updated_at": "2026-10-20T18:03:46Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign_3.1.4_arm64.deb"
@@ -2875,7 +2875,7 @@
       "state": "uploaded",
       "size": 62626827,
       "digest": "sha256:be4f17e11c4f20d39ac2ef03eaabadfdf07eafc786fdb7561372f171717bef09",
-      "download_count": 22,
+      "download_count": 25,
       "created_at": "2026-10-20T18:03:28Z",
       "updated_at": "2026-10-20T18:03:32Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign_3.1.4_x86_64.apk"
@@ -2947,7 +2947,7 @@
       "state": "uploaded",
       "size": 3906,
       "digest": "sha256:e70e59b328d52949b3a9ae3e0d04721ea8f380c4e91c28197aa91df02afbf4c0",
-      "download_count": 38014,
+      "download_count": 42733,
       "created_at": "2026-10-20T18:04:37Z",
       "updated_at": "2026-10-20T18:04:37Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign_checksums.txt"
@@ -2983,7 +2983,7 @@
       "state": "uploaded",
       "size": 6651,
       "digest": "sha256:8fc87b5562359b0414655ee281b80eb3752f58c4e137d5f0e4881f095bc26309",
-      "download_count": 17627,
+      "download_count": 19842,
       "created_at": "2026-10-20T18:04:57Z",
       "updated_at": "2026-10-20T18:04:58Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign_checksums.txt.sigstore.json"
@@ -3019,7 +3019,7 @@
       "state": "uploaded",
       "size": 178,
       "digest": "sha256:f4cea466e5e887a45da5031757fa1d32655d83420639dc1758749b744179f126",
-      "download_count": 133,
+      "download_count": 145,
       "created_at": "2026-10-20T18:05:13Z",
       "updated_at": "2026-10-20T18:05:13Z",
       "browser_download_url": "https://github.com/sigstore/cosign/releases/download/v3.1.4/release-cosign.pub"
