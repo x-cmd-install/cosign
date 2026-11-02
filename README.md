@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,404 · **Forks**: 837 · **Open issues**: 1,231 · **Contributors**: 279
+- **Stars**: 6,406 · **Forks**: 838 · **Open issues**: 1,231 · **Contributors**: 279
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 1 | 10 | 16 | 2 | 8 | 12 |
-| last60d | 2026-09-02 | 1 | 34 | 24 | 7 | 10 | 30 |
-| 90d | 2026-08-03 | 3 | 63 | 33 | 14 | 11 | 67 |
-| last180d | 2026-05-05 | 6 | 159 | 41 | 34 | 17 | 166 |
-| 360d | 2025-11-06 | 12 | 315 | 46 | 90 | 33 | 311 |
-| last720d | 2024-11-11 | 22 | 653 | 51 | 182 | 58 | 655 |
+| 30d | 2026-10-03 | 1 | 10 | 16 | 2 | 8 | 12 |
+| last60d | 2026-09-03 | 1 | 34 | 24 | 7 | 10 | 30 |
+| 90d | 2026-08-04 | 3 | 63 | 33 | 13 | 11 | 67 |
+| last180d | 2026-05-06 | 6 | 159 | 41 | 34 | 17 | 166 |
+| 360d | 2025-11-07 | 12 | 315 | 46 | 90 | 33 | 311 |
+| last720d | 2024-11-12 | 22 | 653 | 51 | 182 | 58 | 655 |
 
 ## Release assets
 
@@ -154,7 +154,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **138** distros on [repology.org](https://repology.org/project/cosign). **6** are ✅ on the latest upstream release, **88** are ⚠️ on an older version.
+Reported by **138** distros on [repology.org](https://repology.org/project/cosign). **7** are ✅ on the latest upstream release, **87** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -177,4 +177,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:19:29Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:38:04Z._
