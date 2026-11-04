@@ -14,11 +14,11 @@ x install cosign
 
 ## Code insight
 
-Total: **49,653** lines of code across **361** files in the top 5 languages.
+Total: **49,987** lines of code across **362** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 48,876 | 7,650 | 7,198 | 345 |
+| Go | 49,210 | 7,682 | 7,234 | 346 |
 | Makefile | 171 | 43 | 42 | 3 |
 | Yaml | 170 | 55 | 18 | 4 |
 | Sh | 158 | 137 | 56 | 8 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.1.4` (2026-10-20)
-- **Last commit**: 2026-10-26
+- **Last commit**: 2026-11-04
 - **Assets in release**: 83
 
 ## Popularity
 
-- **Stars**: 6,406 · **Forks**: 837 · **Open issues**: 1,231 · **Contributors**: 279
+- **Stars**: 6,406 · **Forks**: 838 · **Open issues**: 1,232 · **Contributors**: 280
 
 ## Totals (cumulative)
 
-- **Releases**: 76 · **Merged PRs**: 3212 · **Open PRs**: 52 · **Closed issues**: 1120 · **Open issues**: 111 · **Commits**: 3262
+- **Releases**: 76 · **Merged PRs**: 3216 · **Open PRs**: 50 · **Closed issues**: 1122 · **Open issues**: 110 · **Commits**: 3266
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 1 | 9 | 16 | 2 | 8 | 12 |
-| last60d | 2026-09-04 | 1 | 30 | 24 | 7 | 10 | 30 |
-| 90d | 2026-08-05 | 3 | 61 | 33 | 13 | 11 | 67 |
-| last180d | 2026-05-07 | 6 | 159 | 41 | 34 | 16 | 166 |
-| 360d | 2025-11-08 | 12 | 315 | 46 | 90 | 33 | 311 |
-| last720d | 2024-11-13 | 22 | 653 | 51 | 182 | 58 | 655 |
+| 30d | 2026-10-05 | 1 | 12 | 14 | 3 | 8 | 16 |
+| last60d | 2026-09-05 | 1 | 33 | 23 | 8 | 10 | 34 |
+| 90d | 2026-08-06 | 3 | 63 | 33 | 14 | 11 | 71 |
+| last180d | 2026-05-08 | 6 | 160 | 39 | 36 | 15 | 170 |
+| 360d | 2025-11-09 | 12 | 318 | 44 | 92 | 32 | 315 |
+| last720d | 2024-11-14 | 22 | 657 | 49 | 184 | 57 | 657 |
 
 ## Release assets
 
@@ -154,7 +154,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **138** distros on [repology.org](https://repology.org/project/cosign). **7** are ✅ on the latest upstream release, **87** are ⚠️ on an older version.
+Reported by **138** distros on [repology.org](https://repology.org/project/cosign). **11** are ✅ on the latest upstream release, **83** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -165,7 +165,7 @@ Reported by **138** distros on [repology.org](https://repology.org/project/cosig
 | Arch | `3.1.3` | ⚠️ outdated |
 | Homebrew | `3.1.4` | ✅ latest |
 | Nix unstable | `3.1.3` | ⚠️ outdated |
-| Alpine edge | `3.0.6` | ⚠️ outdated |
+| Alpine edge | `3.1.4` | ✅ latest |
 | openSUSE Tumbleweed | `3.1.3` | ⚠️ outdated |
 
 ## Improve this data
@@ -177,4 +177,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T08:17:42Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:45:12Z._
