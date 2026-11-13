@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,433 · **Forks**: 842 · **Open issues**: 1,235 · **Contributors**: 279
+- **Stars**: 6,436 · **Forks**: 842 · **Open issues**: 1,235 · **Contributors**: 279
 
 ## Totals (cumulative)
 
-- **Releases**: 76 · **Merged PRs**: 3225 · **Open PRs**: 38 · **Closed issues**: 1123 · **Open issues**: 112 · **Commits**: 3281
+- **Releases**: 76 · **Merged PRs**: 3230 · **Open PRs**: 34 · **Closed issues**: 1123 · **Open issues**: 112 · **Commits**: 3286
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 1 | 21 | 7 | 4 | 8 | 30 |
-| last60d | 2026-09-13 | 1 | 38 | 12 | 9 | 11 | 46 |
-| 90d | 2026-08-14 | 1 | 68 | 20 | 13 | 13 | 80 |
-| last180d | 2026-05-16 | 6 | 162 | 27 | 37 | 16 | 181 |
-| 360d | 2025-11-17 | 12 | 314 | 32 | 93 | 34 | 317 |
-| last720d | 2024-11-22 | 22 | 663 | 37 | 185 | 56 | 670 |
+| 30d | 2026-10-14 | 1 | 26 | 2 | 4 | 8 | 0 |
+| last60d | 2026-09-14 | 1 | 43 | 8 | 9 | 11 | 0 |
+| 90d | 2026-08-15 | 1 | 73 | 16 | 13 | 13 | 0 |
+| last180d | 2026-05-17 | 6 | 166 | 23 | 37 | 16 | 0 |
+| 360d | 2025-11-18 | 12 | 319 | 28 | 92 | 34 | 0 |
+| last720d | 2024-11-23 | 22 | 668 | 33 | 185 | 56 | 674 |
 
 ## Release assets
 
@@ -163,7 +163,7 @@ Reported by **140** distros on [repology.org](https://repology.org/project/cosig
 | Debian 13 | `2.5.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.6.2` | ⚠️ outdated |
 | Arch | `3.1.3` | ⚠️ outdated |
-| Homebrew | `3.1.4` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `3.1.3` | ⚠️ outdated |
 | Alpine edge | `3.1.4` | ✅ latest |
 | openSUSE Tumbleweed | `3.1.3` | ⚠️ outdated |
@@ -177,4 +177,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T09:03:54Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T08:22:31Z._
