@@ -14,11 +14,11 @@ x install cosign
 
 ## Code insight
 
-Total: **46,872** lines of code across **362** files in the top 5 languages.
+Total: **46,403** lines of code across **362** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 46,095 | 7,461 | 6,864 | 346 |
+| Go | 45,626 | 7,450 | 6,827 | 346 |
 | Makefile | 171 | 43 | 42 | 3 |
 | Yaml | 170 | 55 | 18 | 4 |
 | Sh | 158 | 137 | 56 | 8 |
@@ -26,7 +26,7 @@ Total: **46,872** lines of code across **362** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **8.5 / 10**
+Overall score: **8.6 / 10**
 
 Lowest-scoring checks:
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.1.4` (2026-10-20)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-18
 - **Assets in release**: 83
 
 ## Popularity
 
-- **Stars**: 6,444 · **Forks**: 842 · **Open issues**: 1,235 · **Contributors**: 279
+- **Stars**: 6,452 · **Forks**: 845 · **Open issues**: 1,236 · **Contributors**: 279
 
 ## Totals (cumulative)
 
-- **Releases**: 76 · **Merged PRs**: 3232 · **Open PRs**: 39 · **Closed issues**: 1123 · **Open issues**: 112 · **Commits**: 3288
+- **Releases**: 76 · **Merged PRs**: 3236 · **Open PRs**: 34 · **Closed issues**: 1123 · **Open issues**: 113 · **Commits**: 3292
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 1 | 26 | 9 | 3 | 5 | 27 |
-| last60d | 2026-09-18 | 1 | 41 | 14 | 7 | 11 | 48 |
-| 90d | 2026-08-19 | 1 | 73 | 20 | 12 | 13 | 84 |
-| last180d | 2026-05-21 | 6 | 161 | 28 | 36 | 16 | 168 |
-| 360d | 2025-11-22 | 12 | 316 | 33 | 89 | 34 | 319 |
-| last720d | 2024-11-27 | 22 | 668 | 38 | 184 | 56 | 674 |
+| 30d | 2026-10-20 | 1 | 23 | 6 | 3 | 6 | 30 |
+| last60d | 2026-09-20 | 1 | 43 | 11 | 7 | 12 | 51 |
+| 90d | 2026-08-21 | 1 | 77 | 15 | 12 | 14 | 88 |
+| last180d | 2026-05-23 | 6 | 160 | 22 | 36 | 17 | 172 |
+| 360d | 2025-11-24 | 12 | 315 | 28 | 88 | 35 | 323 |
+| last720d | 2024-11-29 | 22 | 672 | 33 | 182 | 57 | 678 |
 
 ## Release assets
 
@@ -152,6 +152,22 @@ Lowest-scoring checks:
 | [cosign_checksums.txt.sigstore.json](https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign_checksums.txt.sigstore.json) | 6.5 KiB | `other` |
 | [release-cosign.pub](https://github.com/sigstore/cosign/releases/download/v3.1.4/release-cosign.pub) | 178 B | `other` |
 
+## Distribution status
+
+Reported by **141** distros on [repology.org](https://repology.org/project/cosign). **11** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.1.1` | ⚠️ outdated |
+| Debian 14 | `3.1.1` | ⚠️ outdated |
+| Debian 13 | `2.5.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.6.2` | ⚠️ outdated |
+| Arch | `3.1.3` | ⚠️ outdated |
+| Homebrew | `3.1.4` | ✅ latest |
+| Nix unstable | `3.1.3` | ⚠️ outdated |
+| Alpine edge | `3.1.4` | ✅ latest |
+| openSUSE Tumbleweed | `3.1.3` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `cosign` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -161,4 +177,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T10:19:30Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:39:45Z._

@@ -14,11 +14,11 @@ x install cosign
 
 ## 代码洞察
 
-合计: **46,872** 行代码（覆盖前 5 种语言、共 **362** 个文件）。
+合计: **46,403** 行代码（覆盖前 5 种语言、共 **362** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 46,095 | 7,461 | 6,864 | 346 |
+| Go | 45,626 | 7,450 | 6,827 | 346 |
 | Makefile | 171 | 43 | 42 | 3 |
 | Yaml | 170 | 55 | 18 | 4 |
 | Sh | 158 | 137 | 56 | 8 |
@@ -26,7 +26,7 @@ x install cosign
 
 ## OpenSSF Scorecard 评分
 
-总评分: **8.5 / 10**
+总评分: **8.6 / 10**
 
 评分最低的几项:
 
@@ -42,27 +42,27 @@ x install cosign
 ## 发布
 
 - **最新版本**: `v3.1.4` (2026-10-20)
-- **最近提交**: 2026-11-16
+- **最近提交**: 2026-11-18
 - **Release 含资产**: 83 个
 
 ## 流行度
 
-- **Star**: 6,444 · **Fork**: 842 · **开放 issue**: 1,235 · **贡献者**: 279
+- **Star**: 6,452 · **Fork**: 845 · **开放 issue**: 1,236 · **贡献者**: 279
 
 ## 累计统计
 
-- **发布数**: 76 · **已合并 PR**: 3232 · **开放 PR**: 39 · **已关闭 issue**: 1123 · **开放 issue**: 112 · **提交数**: 3288
+- **发布数**: 76 · **已合并 PR**: 3236 · **开放 PR**: 34 · **已关闭 issue**: 1123 · **开放 issue**: 113 · **提交数**: 3292
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 1 | 26 | 9 | 3 | 5 | 27 |
-| last60d | 2026-09-18 | 1 | 41 | 14 | 7 | 11 | 48 |
-| 90d | 2026-08-19 | 1 | 73 | 20 | 12 | 13 | 84 |
-| last180d | 2026-05-21 | 6 | 161 | 28 | 36 | 16 | 168 |
-| 360d | 2025-11-22 | 12 | 316 | 33 | 89 | 34 | 319 |
-| last720d | 2024-11-27 | 22 | 668 | 38 | 184 | 56 | 674 |
+| 30d | 2026-10-20 | 1 | 23 | 6 | 3 | 6 | 30 |
+| last60d | 2026-09-20 | 1 | 43 | 11 | 7 | 12 | 51 |
+| 90d | 2026-08-21 | 1 | 77 | 15 | 12 | 14 | 88 |
+| last180d | 2026-05-23 | 6 | 160 | 22 | 36 | 17 | 172 |
+| 360d | 2025-11-24 | 12 | 315 | 28 | 88 | 35 | 323 |
+| last720d | 2024-11-29 | 22 | 672 | 33 | 182 | 57 | 678 |
 
 ## Release 资产
 
@@ -152,6 +152,22 @@ x install cosign
 | [cosign_checksums.txt.sigstore.json](https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign_checksums.txt.sigstore.json) | 6.5 KiB | `other` |
 | [release-cosign.pub](https://github.com/sigstore/cosign/releases/download/v3.1.4/release-cosign.pub) | 178 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/cosign) 上共有 **141** 个发行版报告此项目。**11** 个 ✅ 已是最新上游版本，**86** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.1.1` | ⚠️ outdated |
+| Debian 14 | `3.1.1` | ⚠️ outdated |
+| Debian 13 | `2.5.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.6.2` | ⚠️ outdated |
+| Arch | `3.1.3` | ⚠️ outdated |
+| Homebrew | `3.1.4` | ✅ latest |
+| Nix unstable | `3.1.3` | ⚠️ outdated |
+| Alpine edge | `3.1.4` | ✅ latest |
+| openSUSE Tumbleweed | `3.1.3` | ⚠️ outdated |
+
 ## 改进这些数据
 
 cosign 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `cosign` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -161,4 +177,4 @@ cosign 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T10:19:31Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T10:39:47Z._
