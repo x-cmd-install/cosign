@@ -14,14 +14,14 @@ x install cosign
 
 ## Code insight
 
-Total: **46,403** lines of code across **362** files in the top 5 languages.
+Total: **42,064** lines of code across **350** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 45,626 | 7,450 | 6,827 | 346 |
+| Go | 41,288 | 6,913 | 6,217 | 334 |
 | Makefile | 171 | 43 | 42 | 3 |
 | Yaml | 170 | 55 | 18 | 4 |
-| Sh | 158 | 137 | 56 | 8 |
+| Sh | 157 | 137 | 56 | 8 |
 | Svg | 135 | 22 | 0 | 1 |
 
 ## OpenSSF Scorecard
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.1.4` (2026-10-20)
-- **Last commit**: 2026-11-18
+- **Last commit**: 2026-11-20
 - **Assets in release**: 83
 
 ## Popularity
 
-- **Stars**: 6,452 · **Forks**: 845 · **Open issues**: 1,236 · **Contributors**: 279
+- **Stars**: 6,454 · **Forks**: 845 · **Open issues**: 1,237 · **Contributors**: 279
 
 ## Totals (cumulative)
 
-- **Releases**: 76 · **Merged PRs**: 3236 · **Open PRs**: 34 · **Closed issues**: 1123 · **Open issues**: 113 · **Commits**: 3292
+- **Releases**: 76 · **Merged PRs**: 3239 · **Open PRs**: 34 · **Closed issues**: 1123 · **Open issues**: 114 · **Commits**: 3297
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 1 | 23 | 6 | 3 | 6 | 30 |
-| last60d | 2026-09-20 | 1 | 43 | 11 | 7 | 12 | 51 |
-| 90d | 2026-08-21 | 1 | 77 | 15 | 12 | 14 | 88 |
-| last180d | 2026-05-23 | 6 | 160 | 22 | 36 | 17 | 172 |
-| 360d | 2025-11-24 | 12 | 315 | 28 | 88 | 35 | 323 |
-| last720d | 2024-11-29 | 22 | 672 | 33 | 182 | 57 | 678 |
+| 30d | 2026-10-21 | 0 | 22 | 8 | 3 | 7 | 32 |
+| last60d | 2026-09-21 | 1 | 44 | 11 | 7 | 13 | 56 |
+| 90d | 2026-08-22 | 1 | 80 | 15 | 12 | 15 | 93 |
+| last180d | 2026-05-24 | 6 | 163 | 22 | 36 | 18 | 177 |
+| 360d | 2025-11-25 | 12 | 316 | 28 | 88 | 36 | 328 |
+| last720d | 2024-11-30 | 22 | 675 | 33 | 182 | 58 | 683 |
 
 ## Release assets
 
@@ -177,4 +177,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T10:39:45Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T10:21:11Z._
