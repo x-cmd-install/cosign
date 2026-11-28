@@ -26,7 +26,7 @@ Total: **42,123** lines of code across **350** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **8.6 / 10**
+Overall score: **8.7 / 10**
 
 Lowest-scoring checks:
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,482 · **Forks**: 853 · **Open issues**: 1,237 · **Contributors**: 280
+- **Stars**: 6,484 · **Forks**: 854 · **Open issues**: 1,238 · **Contributors**: 280
 
 ## Totals (cumulative)
 
-- **Releases**: 78 · **Merged PRs**: 3261 · **Open PRs**: 33 · **Closed issues**: 1123 · **Open issues**: 114 · **Commits**: 3312
+- **Releases**: 78 · **Merged PRs**: 3261 · **Open PRs**: 34 · **Closed issues**: 1123 · **Open issues**: 115 · **Commits**: 3312
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 2 | 35 | 7 | 2 | 6 | 46 |
-| last60d | 2026-09-28 | 3 | 57 | 10 | 6 | 12 | 63 |
-| 90d | 2026-08-29 | 3 | 91 | 13 | 11 | 15 | 107 |
-| last180d | 2026-05-31 | 8 | 181 | 19 | 36 | 18 | 183 |
-| 360d | 2025-12-02 | 14 | 337 | 27 | 82 | 35 | 341 |
-| last720d | 2024-12-07 | 24 | 696 | 32 | 180 | 58 | 698 |
+| 30d | 2026-10-29 | 2 | 35 | 9 | 2 | 7 | 46 |
+| last60d | 2026-09-29 | 3 | 57 | 11 | 4 | 13 | 63 |
+| 90d | 2026-08-30 | 3 | 91 | 14 | 11 | 16 | 107 |
+| last180d | 2026-06-01 | 8 | 181 | 20 | 36 | 19 | 183 |
+| 360d | 2025-12-03 | 14 | 337 | 28 | 82 | 36 | 341 |
+| last720d | 2024-12-08 | 24 | 696 | 33 | 180 | 59 | 698 |
 
 ## Release assets
 
@@ -152,6 +152,22 @@ Lowest-scoring checks:
 | [cosign_checksums.txt.sigstore.json](https://github.com/sigstore/cosign/releases/download/v3.1.6/cosign_checksums.txt.sigstore.json) | 6.6 KiB | `other` |
 | [release-cosign.pub](https://github.com/sigstore/cosign/releases/download/v3.1.6/release-cosign.pub) | 178 B | `other` |
 
+## Distribution status
+
+Reported by **141** distros on [repology.org](https://repology.org/project/cosign). **4** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.1.1` | ⚠️ outdated |
+| Debian 14 | `3.1.1` | ⚠️ outdated |
+| Debian 13 | `2.5.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.6.2` | ⚠️ outdated |
+| Arch | `3.1.3` | ⚠️ outdated |
+| Homebrew | `3.1.6` | ✅ latest |
+| Nix unstable | `3.1.3` | ⚠️ outdated |
+| Alpine edge | `3.1.4` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.1.3` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `cosign` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -161,4 +177,4 @@ Install metadata for cosign lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T10:28:25Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T09:35:39Z._

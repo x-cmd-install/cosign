@@ -26,7 +26,7 @@ x install cosign
 
 ## OpenSSF Scorecard 评分
 
-总评分: **8.6 / 10**
+总评分: **8.7 / 10**
 
 评分最低的几项:
 
@@ -47,22 +47,22 @@ x install cosign
 
 ## 流行度
 
-- **Star**: 6,482 · **Fork**: 853 · **开放 issue**: 1,237 · **贡献者**: 280
+- **Star**: 6,484 · **Fork**: 854 · **开放 issue**: 1,238 · **贡献者**: 280
 
 ## 累计统计
 
-- **发布数**: 78 · **已合并 PR**: 3261 · **开放 PR**: 33 · **已关闭 issue**: 1123 · **开放 issue**: 114 · **提交数**: 3312
+- **发布数**: 78 · **已合并 PR**: 3261 · **开放 PR**: 34 · **已关闭 issue**: 1123 · **开放 issue**: 115 · **提交数**: 3312
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 2 | 35 | 7 | 2 | 6 | 46 |
-| last60d | 2026-09-28 | 3 | 57 | 10 | 6 | 12 | 63 |
-| 90d | 2026-08-29 | 3 | 91 | 13 | 11 | 15 | 107 |
-| last180d | 2026-05-31 | 8 | 181 | 19 | 36 | 18 | 183 |
-| 360d | 2025-12-02 | 14 | 337 | 27 | 82 | 35 | 341 |
-| last720d | 2024-12-07 | 24 | 696 | 32 | 180 | 58 | 698 |
+| 30d | 2026-10-29 | 2 | 35 | 9 | 2 | 7 | 46 |
+| last60d | 2026-09-29 | 3 | 57 | 11 | 4 | 13 | 63 |
+| 90d | 2026-08-30 | 3 | 91 | 14 | 11 | 16 | 107 |
+| last180d | 2026-06-01 | 8 | 181 | 20 | 36 | 19 | 183 |
+| 360d | 2025-12-03 | 14 | 337 | 28 | 82 | 36 | 341 |
+| last720d | 2024-12-08 | 24 | 696 | 33 | 180 | 59 | 698 |
 
 ## Release 资产
 
@@ -152,6 +152,22 @@ x install cosign
 | [cosign_checksums.txt.sigstore.json](https://github.com/sigstore/cosign/releases/download/v3.1.6/cosign_checksums.txt.sigstore.json) | 6.6 KiB | `other` |
 | [release-cosign.pub](https://github.com/sigstore/cosign/releases/download/v3.1.6/release-cosign.pub) | 178 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/cosign) 上共有 **141** 个发行版报告此项目。**4** 个 ✅ 已是最新上游版本，**93** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.1.1` | ⚠️ outdated |
+| Debian 14 | `3.1.1` | ⚠️ outdated |
+| Debian 13 | `2.5.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.6.2` | ⚠️ outdated |
+| Arch | `3.1.3` | ⚠️ outdated |
+| Homebrew | `3.1.6` | ✅ latest |
+| Nix unstable | `3.1.3` | ⚠️ outdated |
+| Alpine edge | `3.1.4` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.1.3` | ⚠️ outdated |
+
 ## 改进这些数据
 
 cosign 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `cosign` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -161,4 +177,4 @@ cosign 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T10:28:26Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T09:35:40Z._
